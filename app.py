@@ -1,9 +1,12 @@
 from flask import Flask, redirect, render_template, url_for
 from dotenv import load_dotenv
+from os import getenv
 
-load_dotenv()  # take environment variables from .env
+load_dotenv()
 
 app = Flask(__name__)
+
+app.secret_key = getenv('SECRET_KEY')
 
 
 @app.errorhandler(404)
