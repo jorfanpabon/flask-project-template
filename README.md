@@ -12,7 +12,7 @@ It is recommended to use the latest version of Python. Flask is compatible with 
 Clone the project.
 
 ```bash
-  git clone
+  git clone git@github.com:jorfanpabon/flask-project-template.git
 ```
 Go to the project directory.
 
